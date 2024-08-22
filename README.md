@@ -89,7 +89,6 @@ Qualitative performance of TACOSS on the TLM dataset (in a transfert setting ) :
 <figcaption>Fig. 3 : TACOSS predictions :</figcaption>
 <img src="resources/TLM_soleil_preds.png" width="700" alt="Predictions">
 
-TACOSS predictions
 <img src="resources/TLM_soleil_legend.png" width="400" />
 
     
