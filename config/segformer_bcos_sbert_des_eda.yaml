@@ -1,0 +1,28 @@
+NAME : 'sbert_pos_neg_10'
+WANDB_LOG : True
+MAX_EPOCHS : 10
+MODEL_TYPE : 'segformer_contrastive'
+FREEZE_ENCODER :  True
+MODEL_FROM_FILE : 'segformer_base_best/model_last.pth'
+
+FLAIR :
+  SPLIT : '/base'   # either /dev, /tiny or /base
+  TRAIN_PATCH_SIZE : 512
+  TEST_PATCH_SIZE  : 512
+  
+train : 
+  batch_size : 8
+  optimizer_type : 'adamw'
+  scheduler_type : 'stepLR'
+  lr : 5e-5
+  contrastive : [{
+    'embedding_path':'data/flair_labels/flair_descrip_sentenceBERT.pt',
+    'temperature':1,
+    'bcos_value':1,
+    'embedding_size':768,
+    'ignore_index':0,
+    'augmented_path' :'data/flair_labels/augm/flair_descrip_augmented_sentenceBERT.pt',
+    'use_augmentation':True,
+    'nb_pos_vectors':1,
+    'nb_neg_vectors':1,
+                    }]

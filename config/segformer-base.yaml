@@ -1,0 +1,13 @@
+NAME : 'segformer_base'
+WANDB_LOG : True
+MAX_EPOCHS : 500
+MODEL_TYPE : 'segformer'
+
+FLAIR :
+  SPLIT : '/base'  # either /dev, /tiny or /base
+
+train : 
+  batch_size : 128
+  optimizer_type : 'adamw'
+  scheduler_type : 'stepLR'
+  lr : 1e-3

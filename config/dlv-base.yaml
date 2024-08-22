@@ -1,0 +1,13 @@
+NAME : 'deeplabv3plus_base'
+WANDB_LOG : True
+MAX_EPOCHS : 500
+MODEL_TYPE : 'deeplabv3plus'
+
+FLAIR :
+  SPLIT : 'base'  # either dev,  or base
+
+train : 
+  batch_size : 32
+  optimizer_type : 'adam'
+  scheduler_type : 'stepLR'
+  lr : 1e-4

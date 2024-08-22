@@ -1,0 +1,31 @@
+NAME : 'bcos_clip_syn'
+WANDB_LOG : True
+MAX_EPOCHS : 60
+MODEL_TYPE : 'segformer_contrastive'
+FREEZE_ENCODER :  False
+MODEL_FROM_FILE : 'segformer_base_best/model_last.pth'
+
+FLAIR :
+  SPLIT : '/base'   # either /dev, /tiny or /base
+  TRAIN_PATCH_SIZE : 512
+  TEST_PATCH_SIZE  : 512
+  
+TLM : 
+  EMBEDDING_PATH : 'data/tlm_labels/tlm_labels_clip.pt'
+
+train : 
+  batch_size : 8
+  optimizer_type : 'adamw'
+  scheduler_type : 'stepLR'
+  lr : 1e-4
+  contrastive : [{
+    'embedding_path':'data/flair_labels/flair_synonym_clip.pt',
+    'temperature':1.5,
+    'bcos_value':1.5,
+    'embedding_size':512,
+    'ignore_index':0,
+    'augmented_path' :'',
+    'use_augmentation':False,
+    'nb_pos_vectors':0,
+    'nb_neg_vectors':0,
+                }]
