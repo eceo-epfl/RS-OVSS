@@ -22,7 +22,7 @@ First install the necessary dependencies and download the models/data.
 
 <h3>Code requirements (installation) </h3>
 
-Required python packages are listed in the requirements.yml which can be used to build a conda environment.
+Required Python packages are listed in the requirements.yml which can be used to build a conda environment.
 
 ```
 conda env create --file environment.yml
@@ -33,9 +33,9 @@ Or  use the provided "Dockerfile"
 
 <h3>Data requirements</h3>
 
-For trying out the TACOSS, please download the model weights available in zenodo : [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13361624.svg)](https://doi.org/10.5281/zenodo.13361624).
+For trying out the TACOSS, please download the model weights and embeddings available in Zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13361624.svg)](https://doi.org/10.5281/zenodo.13361624).
 
-First clone this repository, then copy the model weights files in the folder `/output`, and the labels embeddings in the folder `/data`
+First, clone this repository, then copy the model weights files in the folder `/output`, and the labels embeddings in the folder `/data`
 
 - The  FLAIR  dataset is available on the IGN website  [ FLAIR challenge](https://ignf.github.io/FLAIR/#FLAIR1).
 
@@ -55,20 +55,20 @@ To launch  experiments based on the existing configuration files, use the follow
 ```
 python main.py --cfg <config_name>
 
-# Train Segforme baseline model :
+# Train Segformer baseline model :
 python main.py --cfg segformer-base
 
 # Train DeepLabv3+ baseline model :
 python main.py --cfg dlv-base
 
-# Train TACOSS with the segformer visual backbone and the SentenceBERT text encoder : 
+# Train TACOSS with the SegFormer visual backbone and the SentenceBERT text encoder : 
 python main.py --cfg segformer-bcos-sbert-des-eda
 
 # Train TACOSS with the DeepLabv3+ backbone and CLIP text encoder :
 python main.py --cfg dlv-bcos-clip-name
 ```
 
-Experiments with the CLIPSeg model requires a specific dataset class for its training and inference, since CLIPSeg is trained as a binary segmentation task with a binary cross entropy loss. To train and evaluate CLIPSeg, use the `CLIPSeg` folder and the `CLIPSegFinetune.py` script.
+Experiments with the CLIPSeg model require a specific dataset class for its training and inference since CLIPSeg is trained as a binary segmentation task with a binary cross-entropy loss. To train and evaluate CLIPSeg, use the `CLIPSeg` folder and the `CLIPSegFinetune.py` script.
 
 
 <h2>Results</h2>
@@ -86,7 +86,7 @@ Qualitative performance of TACOSS on the TLM dataset (in a transfert setting ) :
 <figcaption>Fig. 2 : TLM labels :</figcaption>
 <img src="resources/XTLM_soleil_labels.png" width="700" alt="Labels">
 
-<figcaption>Fig. 3 : TACOSS predictions :</figcaption>
+<figcaption>Fig. 3: TACOSS predictions:</figcaption>
 <img src="resources/TLM_soleil_preds.png" width="700" alt="Predictions">
 
 <img src="resources/TLM_soleil_legend.png" width="400" />
@@ -101,19 +101,19 @@ More examples can be found in the associated publication **[under review]**.
 
 <h2>Future directions</h2>
 
-This project proposes the development of remote sensing specific vision-language models to facilitate the interactions with RS images. Our work showed a proof a principle.
+This project proposes the development of remote sensing-specific vision-language models to facilitate interactions with RS images. Our work showed a proof of principle.
 
-In principle, to be more usable, TACOSS  requires from multiple improvements:
-- Extend TACOSS to more geographical regions, sensors and spatial resolution. Currently, the model was trained only on high resolution (30cm) images with RGB bands.
-- Improve fine-tuning of TACOSS from few land cover labels to a larger set of labels and more diverse description of land cover.
+In principle, to be more usable, TACOSS  requires multiple improvements:
+- Extend TACOSS to more geographical regions, sensors and spatial resolution. Currently, the model is trained only on high-resolution (30cm) images with RGB bands.
+- Improve fine-tuning of TACOSS from a few land cover labels to a larger set of labels and a more diverse description of land cover.
 - Improve open-vocabulary capabilities of TACOSS.
 
 
 <h2>Contributing</h2>
 
-If you are interested in contributing to one of the aforementioned points, or work on a similar project and wish to collaborate, please reach out to [ECEO](https://www.epfl.ch/labs/eceo).
+If you are interested in contributing to one of the aforementioned points or working on a similar project and wish to collaborate, please reach out to [ECEO](https://www.epfl.ch/labs/eceo).
 
-For code related contributions, suggestions or inquires, please open a github issue. 
+For code-related contributions, suggestions or inquiries, please open a GitHub issue. 
 
 
 
@@ -127,4 +127,4 @@ We acknowledge the following code repositories that helped to build the TACOSS r
 
 
 
-Thank you! Others smaller sources are mentioned in the relevant code sections. 
+Thank you! Other smaller sources are mentioned in the relevant code sections. 
