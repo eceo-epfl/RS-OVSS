@@ -3,6 +3,27 @@ vocabulary interactions with remote sensing images.</h1>
 
 <a href="https://orcid.org/0009-0008-1527-3913">Valerie Zermatten <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" /></a>,<a href="https://orcid.org/0000-0001-5607-4445"> Javiera Castillo-Navarro <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" /></a>,<a href="https://orcid.org/0000-0001-5607-4445"> Diego Marcos <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" /></a>,<a href="https://orcid.org/0000-0003-0374-2459"> Devis Tuia<img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" /></a>
 
+<h2>News</h2>
+Feb. 2025 : :tada: :tada: :taco: TACOSS  was accepted for publication in **ISPRS Journal of Photogrammetry and Remote Sensing**,Volume 220, 2025  
+
+[![DOI:10.1016/j.isprsjprs.2025.01.006](https://zenodo.org/badge/DOI/10.1007/978-3-319-76207-4_15.svg)](https://doi.org/10.1016/j.isprsjprs.2025.01.006)
+
+
+How to cite the work : 
+```
+@article{ZERMATTEN2025621,
+title = {Learning transferable land cover semantics for open vocabulary interactions with remote sensing images},
+journal = {ISPRS Journal of Photogrammetry and Remote Sensing},
+volume = {220},
+pages = {621-636},
+year = {2025},
+issn = {0924-2716},
+doi = {https://doi.org/10.1016/j.isprsjprs.2025.01.006},
+author = {Valérie Zermatten and Javiera Castillo-Navarro and Diego Marcos and Devis Tuia},
+keywords = {Land cover mapping, Open vocabulary semantic segmentation, Vision-language model for remote sensing},
+}
+```
+
 <h2>Overview</h2>
 
 This repository proposes Text As supervision for COntrastive Semantic Segmentation (**TACOSS**), an open vocabulary semantic segmentation model for remote sensing images.
@@ -10,6 +31,7 @@ TACOSS leverages the common sense knowledge captured by language models and is c
 
 This project intends to not only simplify the map creation process but also bridge the gap between complex remote sensing technology and user-friendly applications, eventually
 making advanced mapping tools accessible to everyone. 
+
 
 
 ![Overview](resources/pipeline_v2.png)
@@ -94,7 +116,7 @@ Qualitative performance of TACOSS on the TLM dataset (in a transfert setting ) :
     
 
 
-More examples can be found in the associated publication **[under review]**.
+More examples can be found in the associated publication.
 
 
 
