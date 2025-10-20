@@ -4,6 +4,7 @@ vocabulary interactions with remote sensing images.</h1>
 <a href="https://orcid.org/0009-0008-1527-3913">Valerie Zermatten <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" /></a>,<a href="https://orcid.org/0000-0001-5607-4445"> Javiera Castillo-Navarro <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" /></a>,<a href="https://orcid.org/0000-0001-5607-4445"> Diego Marcos <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" /></a>,<a href="https://orcid.org/0000-0003-0374-2459"> Devis Tuia<img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" /></a>
 
 <h2>News</h2>
+Oct. 2025 : Added link to download the TLM Dataset and text labels.
 
 Feb. 2025 : :tada: :tada: :taco: TACOSS  was accepted for publication in **ISPRS Journal of Photogrammetry and Remote Sensing**
 
