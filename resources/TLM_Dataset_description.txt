@@ -1,0 +1,14 @@
+1 An agricultural area is a wide open space used to grow crops or to hold farm animals, usually enclosed by a fence, hedge or other barrier
+2 A building is a closed structure with walls and a roof with residential, religious  or industrial space
+3 A bush forest is an area covered with shrubs or plants branching out from the base
+4 A forest is a relatively dense wooded area consisting of one or more stands of trees
+5 A glacier is a surface covered mainly by ice or eternal snow
+6 A lake is a stagnant body of water that is immobile permanent or periodic such as reservoirs ponds pools 
+7 A wetland is an area of marsh, swamp, bog or wet meadow covered with vegetation with permanent, temporary, stagnant or flowing water
+8 A vineyard is a grape plantation, especially one used in the production of wine 
+9 The railways  include  standard-gauge, narrow-gauge, and small-gauge railroads for multi-track sections and in station areas
+10 A river is a watercourse or a stream where water flows for most of the year
+11 The road generally includes  well-developed  roads that are   passable by all vehicles   traffic area  public parking spaces and private parking spaces
+12 The rocks area includes cliffs solid rock   boulders  stones scree and rubble found either in gravel pits or on mountain slopes 
+13 An open forest is a sparsely wooded area with vegetation on the ground and grassland
+14 A scattered rocks area is an area of loose rock, screes, boulders and rockfill partially covered with grass
