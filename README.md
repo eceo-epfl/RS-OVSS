@@ -67,7 +67,7 @@ First, clone this repository, then copy the model weights files in the folder `/
 
 - The TLM annotations can be downloaded as shapefile 'BodenBeckdung' on the [swissTLM3d website](https://www.swisstopo.admin.ch/de/landschaftsmodell-swisstlm3d)
     - The TLM dataset as used in this repository can be downloaded here : [TLM dataset drive](https://drive.google.com/file/d/12qsQ_9ef7PeJ3WAOJz7szIa0Qbk0ItjZ/view?usp=sharing) or by contacting the authors. 
-    - The TLM dataset legend for the labels are available here : [TLM dataset legend](resources/TLM_Dataset_labels.txt).
+    - The TLM dataset legend for the labels are available here : [TLM dataset text labels ](resources/TLM_Dataset_labels.txt)  [TLM dataset text description ](resources/TLM_Dataset_description.txt)..
     
 
 
